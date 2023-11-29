@@ -35,7 +35,7 @@ Simple installation process using npm, and an initialization command that sets u
 Works well on different platforms, providing a consistent documentation experience for users regardless of their operating system.
 
 # Step by step guide to installation and Setup
-## prerequisite
+## Prerequisite
 ```
 Distributor ID:	Ubuntu
 Description:	Ubuntu 22.04.3 LTS
@@ -112,7 +112,7 @@ brijesh@brijesh-Aspire-Lite-AL15-51:~/docsify$
 ```
 Initialize the docsify in newly created directory:
 ```
-docsify init ./docsify
+docsify init .docsify
 ```
 Output:
 ```
@@ -139,7 +139,7 @@ In the docsify directory create a file named intro.md:
 ```
 touch introduction.md
 ```
-you can edit the intro.md file by the following command  
+you can edit the introduction.md file by the following command  
 ```
 vim introduction.md
 ```
