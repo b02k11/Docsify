@@ -112,11 +112,11 @@ brijesh@brijesh-Aspire-Lite-AL15-51:~/docsify$
 ```
 Initialize the docsify in newly created directory:
 ```
-docsify init .docsify
+docsify init .
 ```
 Output:
 ```
-Initialization succeeded! Please run docsify serve ./docsify
+Initialization succeeded! Please run docsify serve
 ```
 After the init is complete,you can see the file in the ./docsify subdirectory
 * index.html as the entry file  
@@ -124,7 +124,7 @@ After the init is complete,you can see the file in the ./docsify subdirectory
 
 To run the docsify run the following command:
 ```
-docsify serve docsify 
+docsify serve
 ```
 Output:
 ```
