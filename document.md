@@ -42,6 +42,11 @@ Description:	Ubuntu 22.04.3 LTS
 Release:	22.04
 Codename:	jammy
 ```
+To ensure ensures that your system is aware of the latest information about available software packages, versions, and dependencies run the following commands
+```
+sudo apt update
+sudo apt upgrade
+```
 ### Step 1: Install Node.js
 Docsify requires Node.js and npm (Node Package Manager) to be installed on your system. You can install them using the following commands:
 
