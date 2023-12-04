@@ -42,7 +42,7 @@ Description:	Ubuntu 22.04.3 LTS
 Release:	22.04
 Codename:	jammy
 ```
-To ensure ensures that your system is aware of the latest information about available software packages, versions, and dependencies run the following commands
+To ensure that your system is aware of the latest information about available software packages, versions, and dependencies run the following commands
 ```
 sudo apt update
 sudo apt upgrade
@@ -148,7 +148,6 @@ you can edit the introduction.md file by the following command
 ```
 vim introduction.md
 ```
-
 # Customization
 Docsify provides various configuration options to customize the appearance and behavior of your documentation. These options are typically set in the index.js file in the docsify directory. Below are some of the commonly used configuration options:
 ## Sidebar
