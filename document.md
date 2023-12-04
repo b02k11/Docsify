@@ -161,7 +161,7 @@ Example
 * [Installation](/installation.md)
 * [Configuration](/configuration.md)
 ```
-The format is [Link Text](/relative/path/to/page.md).
+The format is [Link Text]("relative path to your file.md").
 To see the customized sidebar you need to set the loadsidebar to true in your index.html file.
 ```
 <script>
@@ -171,7 +171,7 @@ To see the customized sidebar you need to set the loadsidebar to true in your in
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
-<b>You need to create a .nojekyll in ./docs to prevent GitHub Pages from ignoring files that begin with an underscore.</b>
+<b>You need to create a .nojekyll in ./docsify to prevent GitHub Pages from ignoring files that begin with an underscore.</b>
 
 ## Set Page Titles from Sidebar Selection
 you can customize the title by specifying a string after the filename in "_sidebar.md"  
@@ -295,7 +295,7 @@ window.$docsify = {
 };
 ```
 ## hideSidebar
-You can hide your sidebar.This will hide your sidebar and will not render anything or your sidebar.
+You can hide your sidebar.This will hide your sidebar and will not render anything on your sidebar.
 ```
 window.$docsify = {
   hideSidebar: true,
@@ -370,7 +370,7 @@ There are a handful of official and community made themes which you can use to g
 # List of Plugins
 In Docsify, plugins are additional JavaScript modules or extensions that extend the functionality of the documentation site. Plugins can be used to add new features, customize behavior, or integrate third-party tools seamlessly into Docsify.
 ## Zoom Image
-
+You can enable the zoom option by using the following plugin.
 ```
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 ```
@@ -439,7 +439,7 @@ you can enable the search option by using the full text search option.It helps y
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 ```
 # Markdown Uses
-Markdown plays a crucial role in Docsify.It relies on Markdown files to create dynamic and user-friendly documentation websites. Here are some of the key uses of Markdown in Docsify
+Markdown plays a crucial role in Docsify.Docsify relies on Markdown files to create dynamic and user-friendly documentation websites. Here are some of the key uses of Markdown in Docsify
 * >Markdown Files: Docsify documentation is typically written using Markdown files. Markdown provides a lightweight and easy-to-write syntax for creating formatted text without the need for HTML.
 Structured Documentation:
 
@@ -462,7 +462,7 @@ To deploy your docsify document on your githubpages follow these steps:
 
 * Click on the "+" sign in the top right corner and select "New repository."
 
-* Enter a repository name, provide a description, and initialize the repository with a README if desired.
+* Enter a repository name, provide a description, and initialize the repository with a README.md if desired.
 
 * Click "Create repository."
 ### Step 2: Clone the Repository to Your Local Machine
@@ -496,7 +496,7 @@ Once configured, your Docsify documentation will be accessible at https://your-u
 ## Docker
 ### Step 1: Create docsify files
 
-You need prepare the initial files instead of making them inside the container
+You need to prepare the initial files instead of making them inside the container
 >index.html  
 README.md
 ### Step 2: Create Dockerfile 
@@ -519,7 +519,7 @@ docker build -f Dockerfile -t docsify/demo .
 ```
 ### Step 4:Run docker image
 ```
-docker run -itp 3000:3000 --name=docsify -v $(pwd):/docs docsify/demo
+docker run -itp 3000:3000 --name=docsify -v $(pwd):/docsify docsify/demo
 
 ```
 
