@@ -302,7 +302,7 @@ window.$docsify = {
 };
 ```
 ## logo
-you can set the logo of your website.It appears in the sidebar.
+You can set the logo of your website.It appears in the sidebar.
 ```
 window.$docsify = {
   logo: '/_media/icon.svg',
@@ -380,7 +380,7 @@ Add a simple "Click to copy" button to all preformatted code blocks to effortles
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 ```
 ## Full Text Search
-you can enable the search option by using the full text search option.It helps you in searching any word in the document.
+You can enable the search option by using the full text search option.It helps you in searching any word in the document.
 ```
 <script>
   window.$docsify = {
@@ -440,18 +440,18 @@ you can enable the search option by using the full text search option.It helps y
 ```
 # Markdown Uses
 Markdown plays a crucial role in Docsify.Docsify relies on Markdown files to create dynamic and user-friendly documentation websites. Here are some of the key uses of Markdown in Docsify
-* >Markdown Files: Docsify documentation is typically written using Markdown files. Markdown provides a lightweight and easy-to-write syntax for creating formatted text without the need for HTML.
+* Markdown Files: Docsify documentation is typically written using Markdown files. Markdown provides a lightweight and easy-to-write syntax for creating formatted text without the need for HTML.
 Structured Documentation:
 
-* >Headings: Markdown headings (#, ##, ###, etc.) are used to structure the documentation. These headings define sections and subsections, creating a clear hierarchy.  
+* Headings: Markdown headings (#, ##, ###, etc.) are used to structure the documentation. These headings define sections and subsections, creating a clear hierarchy.  
 
-* >Text Formatting:
+* Text Formatting:
 Markdown allows authors to easily apply formatting to text. For example, **bold** and *italic* are used for bold and italic text, respectively.
 
-* >Hyperlinks: Authors can create hyperlinks with ease using the [text](/url/ ':disabled') syntax.
+* Hyperlinks: Authors can create hyperlinks with ease using the [text](/url/ ':disabled') syntax.
 
-* >Code Examples: Markdown supports code blocks using backticks (```). This is essential for displaying code snippets in documentation.
-* >Extensible with HTML:
+* Code Examples: Markdown supports code blocks using backticks (```). This is essential for displaying code snippets in documentation.
+* Extensible with HTML:
 HTML Integration: Markdown files in Docsify can include HTML code directly, providing flexibility for more complex layout and styling requirements.
 # Deploy
 Deploying a Docsify documentation site involves hosting the generated HTML files on a web server or a platform that supports static site hosting.
