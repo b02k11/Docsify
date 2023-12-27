@@ -136,7 +136,7 @@ Output:
 Serving /home/brijesh/docsify now.
 Listening at http://localhost:3000
 ```
-you can preview your site in your browser on http://localhost:3000.
+You can preview your site in your browser on http://localhost:3000.
 ### To add more pages
 If you need more pages, you can simply create more markdown files in your docsify directory.  
 Example:
@@ -144,7 +144,7 @@ In the docsify directory create a file named intro.md:
 ```
 touch introduction.md
 ```
-you can edit the introduction.md file by the following command  
+You can edit the introduction.md file by the following command  
 ```
 vim introduction.md
 ```
@@ -174,7 +174,7 @@ To see the customized sidebar you need to set the loadsidebar to true in your in
 <b>You need to create a .nojekyll in ./docsify to prevent GitHub Pages from ignoring files that begin with an underscore.</b>
 
 ## Set Page Titles from Sidebar Selection
-you can customize the title by specifying a string after the filename in "_sidebar.md"  
+You can customize the title by specifying a string after the filename in "_sidebar.md"  
 Example:  
 ```
 <!-- docsify/_sidebar.md -->
@@ -200,7 +200,7 @@ If you want to ignore any subheader you can do so by adding <!-- {docsify-ignore
 
 This header won't appear in the sidebar table of contents.
 ## Custom Navbar
-you can create a custom markdown-based navigation file by setting loadNavbar to true and creating "_navbar.md" in your docsify directory
+You can create a custom markdown-based navigation file by setting loadNavbar to true and creating "_navbar.md" in your docsify directory
 To create the "_navbar.md":
 ```
 cd docsify
@@ -260,7 +260,7 @@ You can create  a cover page by setting the coverpage to true and creating a "_c
 - No statically built html files
 - Multiple themes
 ```
-you can also customize the background colour or background image:
+You can also customize the background colour or background image:
 ```
 <!-- _coverpage.md -->
 # docsify <small>3.5</small>
@@ -316,21 +316,21 @@ window.$docsify = {
 };
 ```
 ## mergeNavbar
-you can merge the navigation bar for the smaller screens
+You can merge the navigation bar for the smaller screens
 ```
 window.$docsify = {
   mergeNavbar: true,
 };
 ```
 ## name
-you can give a name to your website as it appears into the sidebar:
+You can give a name to your website as it appears into the sidebar:
 ```
 window.$docsify = {
   name: 'docsify',
 };
 ```
 ## nativeEmoji
-You can also use emoji in your contents
+You can also use emoji in your contents.To use the emoji turn on the nativeEmoji to true in index.html and use the emoji as per given exampel.
 ```
 window.$docsify = {
   nativeEmoji: true,
@@ -345,7 +345,7 @@ Example:
 :-1:
 ```
 ## repo
-By this option you can add your github account to the top right corner of your page
+By this option you can add your github account to the top right corner of your page.
 ```
 window.$docsify = {
   repo: 'https://github.com/docsifyjs/docsify/',
