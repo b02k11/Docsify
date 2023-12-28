@@ -41,7 +41,8 @@ Works well on different platforms, providing a consistent documentation experien
 * Npm 
 * Gitpages
 * Docker
-If you do not have any of the 
+  
+
 To check the system configuration run the following command:
 ```
 cat /etc/os-release
