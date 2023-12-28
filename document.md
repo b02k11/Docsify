@@ -36,12 +36,30 @@ Works well on different platforms, providing a consistent documentation experien
 
 # Step by step guide to installation and Setup
 ## Prerequisite
+
+* Node 
+* Npm 
+* Gitpages
+* Docker
+To check the system configuration run the following command:
 ```
-Distributor ID:	Ubuntu
-Description:	Ubuntu 22.04.3 LTS
-Release:	22.04
-Codename:	jammy
+cat /etc/os-release
 ```
+Output:
+PRETTY_NAME="Ubuntu 22.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+
 To ensure that your system is aware of the latest information about available software packages, versions, and dependencies run the following commands
 ```
 sudo apt update
@@ -80,7 +98,7 @@ Output:
 sudo npm install -g docsify-cli
 ```
 Output:  
-```
+
 /usr/bin/docsify -> /usr/lib/node_modules/docsify-cli/bin/docsify
 
 > docsify@4.13.1 postinstall /usr/lib/node_modules/docsify-cli/node_modules/docsify
@@ -91,8 +109,8 @@ If you rely on this package, please consider supporting our open collective:
 > https://opencollective.com/docsify/donate
 
 + docsify-cli@4.4.4
-added 204 packages from 94 contributors in 23.743s 
-```
+added 204 packages from 94 contributors in 23.743s
+
 To check the version,run the following command:
 ```
 docsify --version
@@ -137,6 +155,7 @@ Serving /home/brijesh/docsify now.
 Listening at http://localhost:3000
 ```
 You can preview your site in your browser on http://localhost:3000.
+
 ### To add more pages
 If you need more pages, you can simply create more markdown files in your docsify directory.  
 Example:
@@ -144,10 +163,14 @@ In the docsify directory create a file named intro.md:
 ```
 touch introduction.md
 ```
+touch command is used to create a new empty file.
+
 You can edit the introduction.md file by the following command  
 ```
 vim introduction.md
 ```
+Vim is a text editor which is used for editing.
+
 # Customization
 Docsify provides various configuration options to customize the appearance and behavior of your documentation. These options are typically set in the index.js file in the docsify directory. Below are some of the commonly used configuration options:
 ## Sidebar
