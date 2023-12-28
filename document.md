@@ -37,10 +37,11 @@ Works well on different platforms, providing a consistent documentation experien
 # Step by step guide to installation and Setup
 ## Prerequisite
 
-* Node 
+* Node.js
 * Npm 
 * Gitpages
 * Docker
+If you do not have any of the 
 To check the system configuration run the following command:
 ```
 cat /etc/os-release
