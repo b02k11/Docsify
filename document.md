@@ -56,7 +56,7 @@ Docsify is built on JavaScript and Node.js, so you'll need to have Node.js and n
 * Text editor
   
 You'll need a text editor to write and edit your documentation content. You can use any text editor you're comfortable with.
-* Gitpages
+* GitHub Pages
   
 GitHub Pages is a web hosting service provided by GitHub. It allows you to host static websites directly from your GitHub repositories. This is particularly useful for hosting Docsify documentation, which generates static HTML files.
 * Docker
