@@ -1,12 +1,23 @@
 # Table of content
-[Docsify](#Docsify)  
+
+ 
+[Docsify](#docsify)
+
 [Key Features of Docsify](#key-features-of-docsify)  
+
 [Step by step guide to installation and Setup](#step-by-step-guide-to-installation-and-setup)  
+
 [Customization](#customization)  
+
 [Themes](#themes)  
+
 [List of Plugins](#list-of-plugins)  
+
 [Markdown Uses](#markdown-uses)  
+
 [Deploy](#deploy)
+
+
 
 
 # Docsify
@@ -36,12 +47,20 @@ Works well on different platforms, providing a consistent documentation experien
 
 # Step by step guide to installation and Setup
 ## Prerequisite
+Before setting up Docsify, you'll need to ensure that your system has certain prerequisites installed. Here are the main prerequisites for using Docsify.
 
 * Node.js
-* Npm 
-* Gitpages
-* Docker
+* Npm
+
+Docsify is built on JavaScript and Node.js, so you'll need to have Node.js and npm (Node Package Manager) installed on your system. 
+* Text editor
   
+You'll need a text editor to write and edit your documentation content. You can use any text editor you're comfortable with.
+* Gitpages
+  
+GitHub Pages is a web hosting service provided by GitHub. It allows you to host static websites directly from your GitHub repositories. This is particularly useful for hosting Docsify documentation, which generates static HTML files.
+* Docker
+Docker simplifies the deployment process. You can package your Docsify application as a Docker image, and then deploy that image to any environment that has Docker installed, streamlining the deployment workflow.
 
 To check the system configuration run the following command:
 ```
@@ -172,7 +191,7 @@ You can edit the introduction.md file by the following command
 ```
 vim introduction.md
 ```
-Vim is a text editor which is used for editing.
+Vim is a text editor which is used for editing. To enable editing in Vim press i and to save and exit press esc key followed by :wq  
 
 # Customization
 Docsify provides various configuration options to customize the appearance and behavior of your documentation. These options are typically set in the index.js file in the docsify directory. Below are some of the commonly used configuration options:
